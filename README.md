@@ -19,3 +19,33 @@ Tech Stack:
 •Visualizes the rule matching process step by step
 
 •Supports common rule styles: AWS Security Groups, iptables, UFW, etc.
+
+
+# Project Setup Instructions
+
+1. Create React App
+
+```bash
+npx create-react-app firewall-rule-simulator
+cd firewall-rule-simulator
+```
+2. Install dependencies
+
+```bash
+npm install tailwindcss d3
+```
+
+3. Configure TailwindCSS
+
+```bash
+npx tailwindcss init
+```
+
+After files setup:
+
+```bash
+npm start
+```
+
+
+
